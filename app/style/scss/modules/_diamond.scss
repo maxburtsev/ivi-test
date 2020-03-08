@@ -1,0 +1,28 @@
+// .diamond {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+// }
+// .diamond__title {
+//     position: absolute;
+//     z-index: 2;
+//  }
+// .diamond__shield { 
+//     width: 0;
+//     height: 0;
+//     border: 50px solid transparent;
+//     border-bottom: 20px solid red;
+//     position: relative;
+//     top: -50px;
+// }
+// .diamond__shield:after {
+//     content: '';
+//     position: absolute;
+//     left: -50px;
+//     top: 20px;
+//     width: 0;
+//     height: 0;
+//     border: 50px solid transparent;
+//     border-top: 70px solid red;
+//   }

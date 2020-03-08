@@ -1,0 +1,51 @@
+@import './css/normalize';
+@import './scss/base/colors';
+@import './scss/base/mixin';
+@import './scss/base/fonts';
+@import './scss/base/layout';
+@import './scss/base/form';
+@import './scss/modules/diamond';
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.diamond {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   height: 300px;
+   width: 100%;
+   box-sizing: border-box;
+}
+.diamond__shape {
+    background: red;
+    height: 300px;
+    margin-top: -120px;
+    text-align: center;
+    transform:rotate(45deg);
+    width:300px;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .diamond__item-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 300px;
+    transform: rotate(-45deg);
+    width:300px;
+    margin: 15px 0 0 15px;
+    font-size: 15em;
+    line-height: 0;
+    box-sizing: border-box;
+  }

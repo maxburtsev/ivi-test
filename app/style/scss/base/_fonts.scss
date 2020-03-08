@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('../fonts/static/GothamPro.eot');
+    src: url('../fonts/static/GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/static/GothamPro.woff') format('woff'),
+    url('../fonts/static/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('../fonts/static/GothamPro-Light.eot');
+    src: url('../fonts/static/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/static/GothamPro-Light.woff') format('woff'),
+    url('../fonts/static/GothamPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+$titleFont: 'Gotham Pro Regular';    
+$titleFontLight: 'Gotham Pro Light';    
+$textFont: 'Lato', sans-serif;
